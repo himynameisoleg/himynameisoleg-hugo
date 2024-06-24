@@ -1,0 +1,521 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="en-us"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>An Ultralearning Approach to the Technical Interview - himynameisoleg</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  <meta name="description" content="Intro In 2023 I interviewed with Amazon and Google. Both were eye opening experiences and exposed me to the rigor and extreme caution that big tech companies take with their hiring process. Their philosophy, as I’ve come to understand, is that passing on a few good candidates is better than hiring one bad egg. This poses an especially big challenge for us humble interviewees because we need to be extremely prepared, knowledgeable and level-headed come interview time." />
+  <meta name="author" content="[Oleg Perchyk]" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
+
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="http://localhost:1313/theme.png" />
+
+  
+  
+  
+  
+  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/b51f77d4758565c8dcc59a87cb1b94b0?s=160&amp;d=identicon" />
+  
+  
+
+  
+  
+  <link rel="preload" as="image" href="http://localhost:1313/twitter.svg" />
+  
+  <link rel="preload" as="image" href="http://localhost:1313/github.svg" />
+  
+  <link rel="preload" as="image" href="http://localhost:1313/instagram.svg" />
+  
+  <link rel="preload" as="image" href="http://localhost:1313/linkedin.svg" />
+  
+  
+
+  
+  
+  <script
+    defer
+    src="http://localhost:1313/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  
+  
+
+  
+  <link rel="icon" href="http://localhost:1313/favicon.ico" />
+  <link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.127.0">
+
+  
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="http://localhost:1313/"
+      >himynameisoleg</a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/uses"
+        >Uses</a
+      >
+      
+    </nav>
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/himynameisoleg"
+        target="_blank"
+        rel="me"
+      >
+        twitter
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/himynameisoleg"
+        target="_blank"
+        rel="me"
+      >
+        github
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./instagram.svg)"
+        href="https://instagram.com/tomyumgoons"
+        target="_blank"
+        rel="me"
+      >
+        instagram
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./linkedin.svg)"
+        href="https://linkedin.com/in/olegperchyk"
+        target="_blank"
+        rel="me"
+      >
+        linkedin
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">An Ultralearning Approach to the Technical Interview</h1>
+
+    
+    <div class="text-sm antialiased opacity-60">
+      
+      <time>Jun 21, 2024</time>
+      
+      
+      
+      
+      <span class="mx-1">&middot;</span>
+      <span>[Oleg Perchyk]</span>
+      
+    </div>
+    
+  </header>
+
+  <section><h1 id="intro">Intro</h1>
+<p>In 2023 I interviewed with Amazon and Google. Both were eye opening experiences and exposed me to the rigor and extreme caution that big tech companies take with their hiring process. Their philosophy, as I’ve come to understand, is that passing on a few good candidates is better than hiring one bad egg. This poses an especially big challenge for us humble interviewees because we need to be extremely prepared, knowledgeable and level-headed come interview time. How then can we make ourselves stand out? I set out on a mission to answer just that.</p>
+<h1 id="how-it-all-started">How it all started</h1>
+<p>A few months ago I was researching learning strategies to more effectively pick up a new programming language. I had shown interest in Rust a few years ago but my learning quickly hit a wall and I closed the book on it early. Then one day in the not-so-distant future I came across an awesome book called <a href="https://amzn.to/3VvDYZi">&ldquo;Ultralearning&rdquo; by Scott Young</a> . It outlines some strategies for learning difficult things in an intense, focused, and structured way. I highly encourage you to read the book too, but if I were to convey its ethos in two bullet points it would be:</p>
+<ul>
+<li><strong>Plan</strong> more than you think you need to</li>
+<li>Learn by doing the thing you want to do <strong>directly</strong></li>
+</ul>
+<p>I had decided I wanted to &ldquo;ultra learn&rdquo; the Rust programming language. I made many mistakes in my first attempt. I got stuck in &ldquo;tutorial hell&rdquo; without a well-structure learning plan and no concise motivation for learning outside of &ldquo;I should probably know a low level language&rdquo;.  So this time I started applying some of the ultralearning techniques, and project-ifying the learning. I spent the recommended 10%  on meta-learning &ndash; doing research on <strong>how</strong> I will learn the language, how <strong>others</strong> have learned it, and collecting the books, materials and GitHub repos to aid in the learning. I then laid out a weekly plan, drilled the katas, did the coding projects and supplemented learning with a few recommended books.</p>
+<p>However, after 4 weeks I put this project on pause again.</p>
+<p>&ldquo;But, Why?&rdquo;</p>
+<p>Well, it wasn&rsquo;t because I hit the wall again.</p>
+<p>In fact, I was seeing tremendous results! This time learning Rust and Systems Programming came much more rapidly. My only problem was that this strategy worked so well. I had this burning feeling that I could be applying this wonderful new technique to anything. Something different, better, “higher impact”.  Something like, say, &hellip;  Technical Interviews.</p>
+<p>So here&rsquo;s what I did.</p>
+<h1 id="the-ultralearning-phase">The Ultralearning Phase</h1>
+<h2 id="meta-learning">Meta-Learning</h2>
+<p>When I did interview prep last year I just blindly solved some recommended LeetCode questions, followed a few YouTube videos, read the most important chapters in <a href="https://amzn.to/3VvDYZi">Cracking the Coding Interview</a>. I forgot them almost immediately. I had poor structure and no set schedule, and as a consequence nothing seemed to stick. The learning decay curve kicked in immediately and when the day of the interview came I found it hard to retrieve the knowledge that I had only <strong>just practiced</strong>.</p>
+<p>This time around I dedicated way more time to planning. Ultralearning recommends 10% of total time to be spent on planning out a strategy. Having a well devised plan helps keep you on target, helps combat the learning decay curve, and acts as an accountability partner.</p>
+<h3 id="how-i-planned-and-organized">How I planned and organized</h3>
+<p>I was not trying to re-invent the wheel with this project. I wanted a simple concise study plan that I could adapt to my own style. I found this amazing documentation-style website called the <a href="https://www.techinterviewhandbook.org/software-engineering-interview-guide/">Tech Interview Handbook</a> and made heavy use of it throughout. I highly recommend it as part of your planning phase. Read through this front to back. Its&rsquo;s not very long and has some gems of advice.</p>
+<p>I went with its recommended approach of 3 month of learning, 11 hours per week. I factored in 2 extra weeks for &hellip; well &hellip; this is life and sh$t happens, which came out to a cool 154 hours. This meant that about 15 hours should be dedicated to meta-learning, planning, building a calendar, finding resources, paying for courses, setting up LeetCode, etc.</p>
+<p>In the <a href="https://www.techinterviewhandbook.org/coding-interview-study-plan/">study and practice plan</a> section there is a breakdown of each topic by week, recommended time, and priority level of each topic. I used this as a baseline to craft my weekly schedule, trying to incorporate time for <strong>spaced repetition</strong> and <strong>direct learning</strong> strategies I discovered from Ultralearning. The beginning is always a little awkward when starting these things, and I used the first few days to sus-out what worked and what didn&rsquo;t. I eventually arrived on this sequence:</p>
+<h4 id="the-learning-sequences">The Learning Sequences</h4>
+<ol start="0">
+<li>Active Learning
+<ul>
+<li>Read the recommended articles and watch the recommended videos</li>
+<li>Over-learn the topic - articles often link to other resources so jump down that rabbit hole</li>
+</ul>
+</li>
+<li>Direct Practice
+<ul>
+<li>Solve 3-4 of the essential LeetCode - be sure to [[02-an-ultralearning-approach-to-the-technical-interview#1. Time yourself|time yourself]]</li>
+<li>Subsequently review each attempted question and understand your weaknesses</li>
+</ul>
+</li>
+<li>Weekly Review
+<ul>
+<li>Comprehensive review at the end of the week</li>
+<li>Drill and Review the recommended LeetCode</li>
+<li>Re-try some of the failed questions from earlier in the week</li>
+</ul>
+</li>
+</ol>
+<p>Because I work full-time, this is the schedule that I landed on after tuning the first week.
+Sundays were spent on &ldquo;light reading&rdquo;.
+My work week, Mon-Fri, I spent about 1-2 hours per day drilling problem sets and reviewing.
+Saturdays were spent on a longer comprehensive review of the weeks topics. Similar to Mon-Fri just more diverse set of problems. Here is how the schedule looked:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Sun</th>
+<th>Mon</th>
+<th>Tue</th>
+<th>Wed</th>
+<th>Tr</th>
+<th>Fri</th>
+<th>Sat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<p><img src="../../images/blog/calendar.jpeg" alt="calendar"></p>
+<p>Learning days (0s) are just there to put you in the right headspace. They are not quite as important as the other days and serve to be primers for the content to come. The problems attempted in the Direct Practice days (1) are far more important, because most of the learning will happen during your struggle when trying to complete a problem in 15-20 minutes, inevitably failing, and then reviewing what went wrong. I have come to appreciate the fact that failure is a very powerful teacher. By intentionally setting myself up for failure during the drill sessions I was able to highlight my weaknesses and force myself to go back and grok the thing.</p>
+<blockquote>
+<p>&ldquo;Failure is a very powerful teacher.&rdquo;</p>
+</blockquote>
+<p>So that was the majority of the planing phase. Initially, I left some extra time for planning during the first week to make adjustments to the schedule based on how things were going. With my calendar printed out, LeetCode purchased, books coming in the mail, I was well equipped for the next 12-14 weeks of this marathon. Now lets dive a little deeper into the learning strategy.</p>
+<h2 id="the-power-of-directness">The Power of Directness</h2>
+<p>Wanting to pass the technical interview meant that I needed to <strong>practice doing technical interviews</strong>. All the YouTube, LeetCode, books, and courses are nothing but tools to aid in understanding the domain of knowledge, but they don&rsquo;t magically make you a good technical interviewee. This comes down to directly practicing in the style of the interview &ndash; usually a blank document or a physical whiteboard. There are 3 things to consider when emulating this direct interview practice.</p>
+<h3 id="1-time-yourself">1. Time yourself</h3>
+<p>During each and every problem I attempted, I had a timer going. It didn’t matter if I finished solving the question or not. The simple practice of timing the problems exposed weaknesses in my problem solving strategies and highlighted  the areas where I needed to focus more effort. I kept a pen and paper handy and quickly jotted down questions that came to mind while I was solving the problem, and came back to them during the subsequent review session. This ensured that I was practicing under time pressure and also had some topics to review later under more relaxed conditions.</p>
+<h3 id="2-bring-your-own-examples">2. Bring your own examples</h3>
+<p>LeetCode is a great platform for practicing,  but it gives too much information at once. Part of the challenge in the real interview is asking your interviewer the right questions.  Questions like &ldquo;What does the input look like&rdquo;, &ldquo;the output&rdquo;, &ldquo;are duplicates allowed&rdquo;, etc. LeetCode lays all of these out form the start. I made sure to ignore the examples  and come up with my own, and only reference the examples when I was genuinely stuck. This more closely emulates a real interview.</p>
+<h3 id="3-dont-run-the-code">3. Don&rsquo;t run the code</h3>
+<p>First off, solve the problem before coding it out. I made the mistake last year of jumping to the intricacies of the code before actually solving the problem. In my naive initial practice I made heavy use of the &ldquo;Run&rdquo; button in LeetCode. Forget this button exists. Solve the problem to the best of your ability in the time given, optimize as much as you can, but don&rsquo;t focus on running the code. This is not Test Driven Development and you will not have this kind of feedback during the interview.</p>
+<p>Following these 3 strategies when drilling  interview problems helped more closely simulate the true format of the interview. This is exactly how it went in 2023 and this is exactly how it is now. But all the drilling in the world was not going help if I didn&rsquo;t have a good strategy for review and retention.</p>
+<h2 id="retention">Retention</h2>
+<p>Learning decay is real and it sucks. Our brain is great at archiving information that we don’t access on a regular basis. I have found two strategies that work best to combat learning decay, and helped me retain information for longer periods of time:</p>
+<ol>
+<li>Over learning</li>
+<li>Spaced Repetition</li>
+</ol>
+<h3 id="overlearning">Overlearning</h3>
+<p>Going beyond surface level on any topic is probably the most effective way to make it stick. Additionally, over-learning is less of a “trick” than other strategies. Lets compare it to mnemonics. As with mnemonic strategies you are creating associations in your brain to help you quickly recall the topic. But unlike mnemonics, over-learning fundamentally adds to your overall understanding of the subject. Instead of silly acronyms helping you remember something, you have a robust web of inter-related information to fall back on.</p>
+<p>Let me use Hash Tables as an example for how I over-learned to help me understand the topic. Initially, I knew that you can use the Hash Table data structure to quickly access data stored as a key-value in near constant time, O(1). What I didn&rsquo;t know about were all of the hashing functions and the collision resolutions mechanisms when building out a Hash Table.  These are usually abstracted away in higher level languages.
+I read a bunch of articles on the subject (I love it when online articles links to more articles). Next thing I knew I had 12 tabs open. Even though each article covered essentially the same thing: &ldquo;here&rsquo;s what a Hash Table is, what it does, here&rsquo;s how&rdquo;, they all approached it slightly differently. Seeing the various approaches and different implementation strategies really helped contextualize the essence of the topic for me, even if I never had to recall the implementation details.</p>
+<p>What I have found is that my brain is able to create some common patterns after consuming about 3-5 different resources on one topic. So once I have reviewed 3 different materials on the subject and can solve 3 similar problems, I feel confident enough about moving on. If I still cant solve 3 problems, there there are likely some knowledge gaps I need to fill.</p>
+<p>The challenge with the over-learning strategy is knowing when to stop. Knowing how deeply to go down the rabbit hole. This is entirely subjective but a great segue to the next strategy: Spaced Repetition.</p>
+<h3 id="spaced-repetition">Spaced Repetition</h3>
+<p>We know that time is the enemy of our learning. In my first year of university I took a psychology class and one of the first things my professor pulled up on the board was the classic &ldquo;forgetting curve&rdquo;. We learn really quickly at first, but we forget just as quickly. Thankfully we can combat this tendency to forget with repetition. The curve becomes far less steep with subsequent reviews, and this is why I wanted to incorporate a spaced repetition strategy into my schedule. Spacing the learning and drilling 1 day apart ensures that there is ample time between learning something quickly and then reviewing aggressively to reinforce the ideas, and challenges any misconceptions you may have mistakenly formed in the initial study. Having a comprehensive drill / review session at the end of the week further solidifies this.</p>
+<p><img src="../../images/blog/forgetting-curve.jpeg" alt="forgetting curve"></p>
+<h1 id="how-its-going">How its going</h1>
+<h2 id="timing-is-key">Timing is key</h2>
+<p>After piloting these strategies for a week, I have learned quite a bit. Firstly, the 11 hour per week time commitment feels bit too low to deeply cover all the content prescribed in the guide. When I allocate 15 minutes to solving each problem, the subsequent review can take up to 30 minutes if the problem is sufficiently complex or used some Pythonic trick that I am not familiar with. E.g. I learned that I cannot use a List as the key for a dictionary because Lists in Python are mutable. It took time for me to understand that casting Lists as Tuple makes them immutable and this can be a useful hashing mechanism for anagram problems if you are optimizing for performance and trying to avoid sorting.</p>
+<p>Despite the early time investment, I am very hopeful that it will get easier. Early on, I tripped up on simple problems. Now I can solve these types of problems in half the time, even using the most efficient strategy!  The learning curve seems to be steep initially, but once I&rsquo;ve encountered each type of problem and start grokking it, my time to solve seems to drop significantly. I am hopeful this trend continues.</p>
+<h2 id="distraction">Distraction</h2>
+<p>It was Easter Sunday weekend. I knew the weekend would be spent with my family, but I also wanted to keep up with my studies. I planned to pepper some light reading and review in between the holiday festivities. I loaded up some Medium articles onto my Kindle. There were only about 6-8 articles on Linked Lists, Queues, Stacks, Sorting and Searching - topics I was already pretty familiar with. What I learned, however, is that distraction is the enemy of progress. What should have taken me at-most an hour or two, wound up taking sever hours due to distraction. This further highlighted the importance of having a quiet focused study space, because this kind of technical literature, even the reading&quot; cannot be consumed while I am distracted.</p>
+<h2 id="motivation">Motivation</h2>
+<p>I have been following the <a href="https://reddit.com/r/leetcode">r/leetcode</a> subreddit and have been seeing a wide spectrum of stories of both inspiring and demoralized experiences with leetcode interview prep. There is definitely a strong learning curve with the problems but given enough time and with the right strategy it becomes like second nature and quite fun actually. After going through the initial learning phase and getting over a week of the Easy level drilling, I can confidently say I can solve most easy problems in just a few minutes. Your brain starts recognizing patterns and there are only a dozen or so different problems. I am cautiously optimistic though, because I know once I start on the Mediums, there will definitely be a new hump to overcome. But having a solid foundation is very helpful as Mediums generally just add a layer of complexity or an additional data structure on top of the easy. My advice to those frustrated, demoralized souls on reddit is this - &ldquo;stick with it, lay a good foundation, and don&rsquo;t burn yourself out&rdquo;.</p>
+<h1 id="applications-and-offers">Applications and Offers</h1>
+<p>Throughout this process I have also been researching companies and applying to the ones I find to be a good fit. In total I applied to about 30 carefully researched and considered roles. I received many polite rejection letters and even a weird AI screening. Here are some of the highlights, interviews and decisions:</p>
+<h2 id="1-fintech-research-company---interview-no-offer-">1. Fintech Research Company - Interview, No Offer 😵</h2>
+<p>This was my first invitation to interview. There was no Online Assessment just went straight to interview. I was your average technical grilling. As this was the first interview in a while I felt a little underprepared. It also felt like my interviewers were a bit underprepared or were not accustomed to interviews. It was a jumble of technical trivia and generic interview questions which I did my best to answer but some of the questions were so trivial I felt as if I were on a game show &ndash; less about problem solving and more about intricacies of a specific language or database.</p>
+<p>I learned a lot from this interview, namely that I needed a refresher on some of the tech I hadn&rsquo;t used in a while, especially if it shows up on the job description. Ultimately I think my lack of preparedness showed and I didn&rsquo;t move on.</p>
+<h2 id="2-amazon---screened-out-again-">2. Amazon - Screened Out Again 😵</h2>
+<p>I applied to Amazon in 2022 and never made it past the coding assessment. As I was already in their system I got an invitation to go through another interview. Its almost like they saw that I ordered &ldquo;Cracking the Coding Interview&rdquo; and magically knew I was looking 😅.</p>
+<p>The process was pretty standard.
+I emailed back the recruiter with my new resume, filled out the online application. She also asked me to answer a list of some basic screening questions. Things like openness to relocate,  my current role, how much time I spend coding/designing, etc.
+I took the Online Assessment about a week later and the questions were fairly simple. The first one passed most test cases. The second one stumped me and only passed a few edge cases. I had the right approach just missed a minor detail - I managed to solve it later but my approach was probably not even looked at and I was screened out .</p>
+<blockquote>
+<p>Big takeaway here is if you don&rsquo;t pass the Online Assessment questions you&rsquo;ll likely be screened out.</p>
+</blockquote>
+<p>Given the current market for software engineers, I think the cold truth is that &ldquo;companies can be super picky&rdquo;. The applicant pool is pretty massive now after all the layoffs, and they are more liberally screening out. So being able to pass the OA is a huge foot in the door and shouldn&rsquo;t be taken lightly.</p>
+<h2 id="3-healthcare-company---offer">3. Healthcare Company - Offer ✅</h2>
+<p>I applied early April 2024, did a short phone screen, and took another HackerRank assessment. This one was more technology specific and role oriented. They asked some very specific multiple choice questions about React, Auth flow, and some infrastructure YAML formatting. A little trivia-like, but I think they wanted to gauged if I used certain technologies or not. There was one coding problem in JavaScript related to generators which I completely forgot were a thing in JS, but a quick language ref lookup I solved it no problem. Overall a pretty straight foreword  exam. Not the best way to gage the applicant overall problem solving abilities but much easier to get foot in the door than the &ldquo;leetcode&rdquo; style problems. Neither of these approaches is perfect in my opinion.</p>
+<p>The following week I was invited for a panel style interview with two architects and a director. Having learned my lesson before, I spent the weekend diving into the technologies listed in the job description and going over the tech I wasn&rsquo;t super familiar with. I built a small app using Next.js, TypeScript and  Auth0 as a refresher. This exercise helped a ton. I think any technology listed on the JD is always fair game for questions in the interview. The weekend prep payed off and because of my prep, the interview went really well.</p>
+<p>I sent a thank you note to the recruiter a few days later and asked for any feedback. We had a conversation the following day and I received news that I was their top candidate!</p>
+<h1 id="did-i-accept-the-offer">Did I accept the offer?</h1>
+<p>YES! After a few more email and some salary negotiation I was happy with the final offer and accepted it.</p>
+<h1 id="key-takeaways--and-summary">Key Takeaways  and Summary</h1>
+<p>Well, I didn&rsquo;t make it the whole 14 weeks. In fact I &ldquo;only&rdquo; made it to week 11 by the time I got an offer. But in the last 10 weeks I sure did learn a thing or two.</p>
+<p>For Big Tech companies my bottleneck was the Online Assessment. I think if I had the full 14 weeks instead of just 4 of leetcode grind I would have been in much better shape to solve the Amazon questions perfectly.</p>
+<p>For the companies that didn&rsquo;t do leetcode the big mistake I made was not being prepared to answer interview questions. I learned from my mistakes during the first interview and prepared a list of examples of <strong>challenges</strong>, <strong>failures</strong> and <strong>successes</strong> across all of my projects and tied them closely to the job requirements for the new position. Better yet I built a small demo app using some of the technologies from the job description to give myself a nice refresher.</p>
+<p>Last of all, this process <strong>takes time</strong>. 14 weeks may seem like a long time, but it sure did go by quickly. Thankfully the intensity of this period really paid off. I learned a metric ton of &ldquo;tricks&rdquo; and strategies  for solving problems efficiently. And the awesome reward from all of those long hours after work and on weekends: the closing of one chapter and opening of an exciting new one!</p>
+<h1 id="so-whats-next">So whats next?</h1>
+<h3 id="building-new-habits">Building new habits</h3>
+<p>Changing jobs or starting new work projects always feels like a clean slate.
+I always like to take this time as an opportunity to reflect on what worked in the past and what didn&rsquo;t. In the next few weeks as I transition from my old job to the new, I plan to start setting some goal for myself in this next chapter.</p>
+<h3 id="forever-leetcode---i-get-it">Forever LeetCode - I get it</h3>
+<p>Having gone through a sizable chunk of the learning plan, all of the pain of getting stuck and manic joy of finally solving a problem on my own, I kinda understand the hype. Im relieved to get 3 hours back each day,  but also kind of bummed I didn&rsquo;t get to do more of those problems during the interview process. I definitely feel like these last 10 weeks have made me a much stronger software engineer. There is no doubt about that. Though I have a massive list of books I want to get through, I will definitely continue to solve leetcode on the regular just to keep current. Maybe even try using a language other than Python.</p>
+<h3 id="ultralearning-ubiquity">Ultralearning ubiquity</h3>
+<p>If I learned one thing during this whole process is that the ultralearning framework works tremendously well! Its portable and can be applied to nearly any new learning. I am extremely happy to have successfully applied it to my personal life. I feel like I have discovered a sort of cheat code to life and feel motivated to continue applying it in other practical areas and next project!</p>
+<h2 id="outro">Outro</h2>
+<p>If you made this this far, thanks for taking the time and reading. If you have any questions or constructive feedback lets connect!</p>
+<p><a href="mailto:perchykoleg@gmail.com">perchykoleg@gmail.com</a></p>
+<p>@himynameisoleg</p>
+</section>
+
+  
+  
+  <footer class="mt-12 flex flex-wrap">
+     
+    <a
+      class="mb-1.5 mr-1.5 rounded-lg bg-black/[3%] px-5 py-1.5 no-underline dark:bg-white/[8%]"
+      href="http://localhost:1313/tags/ultralearning"
+      >ultralearning</a
+    >
+     
+    <a
+      class="mb-1.5 mr-1.5 rounded-lg bg-black/[3%] px-5 py-1.5 no-underline dark:bg-white/[8%]"
+      href="http://localhost:1313/tags/blog"
+      >blog</a
+    >
+    
+  </footer>
+  
+
+  
+  
+  
+  
+  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
+    
+    
+    <a
+      class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="http://localhost:1313/blog/03-replatforming-personal-website/"
+      ><span>Replatforming from Gatsby to Zola!</span><span class="ml-1.5">→</span></a
+    >
+    
+  </nav>
+  
+  
+
+  
+  
+
+  
+  
+
+  
+
+
+  
+</article>
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+>
+  <div class="mr-auto">
+    &copy; 2024
+    <a class="link" href="http://localhost:1313/">himynameisoleg</a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >✎ Paper</a
+  >
+</footer>
+
+  </body>
+</html>

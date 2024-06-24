@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uses on himynameisoleg</title>
+    <link>http://localhost:1313/uses/</link>
+    <description>Recent content in Uses on himynameisoleg</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/uses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Uses</title>
+      <link>http://localhost:1313/uses/uses/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uses/uses/</guid>
+      <description>Proud member of Wes Boss&amp;rsquo;s uses.tech group. Here is what I&amp;rsquo;ve been using lately:&#xA;Software: Text Editor: VS Code, Zed - a wonderful new text editor written by the folks who created Atom Terminal: Warp - an awesome AI powered terminal Vim: AstoNvim (my dotfiles) - for when I need to be productive in the terminal Hardware (on the go): Laptop: MacBook Pro M1 Max 16 Headphones: AIAIAI TMA-2 BT Hardware (home battlestation): Desktp: Ryzen 5 2600, RX590, 16GB RAM Monitors: NEC EA244 - still going strong (thanks Alfredo!</description>
+    </item>
+  </channel>
+</rss>
