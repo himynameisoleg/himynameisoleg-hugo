@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ultralearning on himynameisoleg</title>
-    <link>https://himynameisoleg.com/tags/ultralearning/</link>
+    <link>http://localhost:1313/tags/ultralearning/</link>
     <description>Recent content in Ultralearning on himynameisoleg</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://himynameisoleg.com/tags/ultralearning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ultralearning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An Ultralearning Approach to the Technical Interview</title>
-      <link>https://himynameisoleg.com/blog/02-an-ultralearning-approach-to-the-technical-interview/</link>
+      <link>http://localhost:1313/blog/02-an-ultralearning-approach-to-the-technical-interview/</link>
       <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://himynameisoleg.com/blog/02-an-ultralearning-approach-to-the-technical-interview/</guid>
+      <guid>http://localhost:1313/blog/02-an-ultralearning-approach-to-the-technical-interview/</guid>
       <description>Intro In 2023 I interviewed with Amazon and Google. Both were eye opening experiences and exposed me to the rigor and extreme caution that big tech companies take with their hiring process. Their philosophy, as I’ve come to understand, is that passing on a few good candidates is better than hiring one bad egg. This poses an especially big challenge for us humble interviewees because we need to be extremely prepared, knowledgeable and level-headed come interview time.</description>
     </item>
   </channel>

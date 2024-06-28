@@ -51,7 +51,7 @@
   style="--bg: #faf8f1"
   lang="en-us"
 >
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta
@@ -81,14 +81,14 @@ const pi = 3.14; pi = 3.14159; // This would cause an error On the other hand, l
   
   
   
-  <link rel="preload stylesheet" as="style" href="https://himynameisoleg.com/main.min.css" />
+  <link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
 
   
   
   
   
   
-  <link rel="preload" as="image" href="https://himynameisoleg.com/theme.png" />
+  <link rel="preload" as="image" href="http://localhost:1313/theme.png" />
 
   
   
@@ -100,13 +100,13 @@ const pi = 3.14; pi = 3.14159; // This would cause an error On the other hand, l
 
   
   
-  <link rel="preload" as="image" href="https://himynameisoleg.com/twitter.svg" />
+  <link rel="preload" as="image" href="http://localhost:1313/twitter.svg" />
   
-  <link rel="preload" as="image" href="https://himynameisoleg.com/github.svg" />
+  <link rel="preload" as="image" href="http://localhost:1313/github.svg" />
   
-  <link rel="preload" as="image" href="https://himynameisoleg.com/instagram.svg" />
+  <link rel="preload" as="image" href="http://localhost:1313/instagram.svg" />
   
-  <link rel="preload" as="image" href="https://himynameisoleg.com/linkedin.svg" />
+  <link rel="preload" as="image" href="http://localhost:1313/linkedin.svg" />
   
   
 
@@ -114,7 +114,7 @@ const pi = 3.14; pi = 3.14159; // This would cause an error On the other hand, l
   
   <script
     defer
-    src="https://himynameisoleg.com/highlight.min.js"
+    src="http://localhost:1313/highlight.min.js"
     onload="hljs.initHighlightingOnLoad();"
   ></script>
   
@@ -124,53 +124,13 @@ const pi = 3.14; pi = 3.14159; // This would cause an error On the other hand, l
   
 
   
-  <link rel="icon" href="https://himynameisoleg.com/favicon.ico" />
-  <link rel="apple-touch-icon" href="https://himynameisoleg.com/apple-touch-icon.png" />
+  <link rel="icon" href="http://localhost:1313/favicon.ico" />
+  <link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png" />
 
   
   <meta name="generator" content="Hugo 0.127.0">
 
   
-  
-  
-  
-  
-
-
-  
-  
-  <meta itemprop="name" content="Understanding const vs let">
-  <meta itemprop="description" content="In JavaScript, const and let are both ways to declare variables, but they have some important differences.
-const stands for “constant.” When you declare a variable using const, you are telling the compiler that the value of the variable cannot be reassigned. For example:
-const pi = 3.14; pi = 3.14159; // This would cause an error On the other hand, let allows you to declare a variable whose value can be reassigned.">
-  <meta itemprop="datePublished" content="2020-02-02T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2020-02-02T00:00:00+00:00">
-  <meta itemprop="wordCount" content="209">
-  
-  <meta property="og:url" content="https://himynameisoleg.com/blog/const-vs-let/">
-  <meta property="og:site_name" content="himynameisoleg">
-  <meta property="og:title" content="Understanding const vs let">
-  <meta property="og:description" content="In JavaScript, const and let are both ways to declare variables, but they have some important differences.
-const stands for “constant.” When you declare a variable using const, you are telling the compiler that the value of the variable cannot be reassigned. For example:
-const pi = 3.14; pi = 3.14159; // This would cause an error On the other hand, let allows you to declare a variable whose value can be reassigned.">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2020-02-02T00:00:00+00:00">
-    <meta property="article:modified_time" content="2020-02-02T00:00:00+00:00">
-
-  
-  
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Understanding const vs let">
-  <meta name="twitter:description" content="In JavaScript, const and let are both ways to declare variables, but they have some important differences.
-const stands for “constant.” When you declare a variable using const, you are telling the compiler that the value of the variable cannot be reassigned. For example:
-const pi = 3.14; pi = 3.14159; // This would cause an error On the other hand, let allows you to declare a variable whose value can be reassigned.">
-
-  
-  
-  
-  <link rel="canonical" href="https://himynameisoleg.com/blog/const-vs-let/" />
   
   
 </head>
@@ -180,7 +140,7 @@ const pi = 3.14; pi = 3.14159; // This would cause an error On the other hand, l
   <div class="relative z-50 mr-auto flex items-center">
     <a
       class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
-      href="https://himynameisoleg.com/"
+      href="http://localhost:1313/"
       >himynameisoleg</a
     >
     <div
@@ -250,13 +210,19 @@ const pi = 3.14; pi = 3.14159; // This would cause an error On the other hand, l
       
       <a
         class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/blog/"
+        >Blog</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
         href="/about/"
         >About</a
       >
       
       <a
         class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
-        href="/uses"
+        href="/uses/"
         >Uses</a
       >
       
@@ -360,14 +326,14 @@ const pi = 3.14; pi = 3.14159; // This would cause an error On the other hand, l
     
     <a
       class="flex w-1/2 items-center rounded-l-md p-6 pr-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
-      href="https://himynameisoleg.com/blog/remove-object-based-on-key/"
+      href="http://localhost:1313/blog/remove-object-based-on-key/"
       ><span class="mr-1.5">←</span><span>Remove duplicates from an Array of Objects based on property</span></a
     >
     
     
     <a
       class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
-      href="https://himynameisoleg.com/blog/array-reduce/"
+      href="http://localhost:1313/blog/array-reduce/"
       ><span>Array Reduce Function</span><span class="ml-1.5">→</span></a
     >
     
@@ -395,7 +361,7 @@ const pi = 3.14; pi = 3.14159; // This would cause an error On the other hand, l
 >
   <div class="mr-auto">
     &copy; 2024
-    <a class="link" href="https://himynameisoleg.com/">himynameisoleg</a>
+    <a class="link" href="http://localhost:1313/">himynameisoleg</a>
   </div>
   <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
     >Powered by Hugo️️</a

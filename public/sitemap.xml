@@ -2,54 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://himynameisoleg.com/blog/02-an-ultralearning-approach-to-the-technical-interview/</loc>
+    <loc>http://localhost:1313/blog/02-an-ultralearning-approach-to-the-technical-interview/</loc>
     <lastmod>2024-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://himynameisoleg.com/tags/blog/</loc>
+    <loc>http://localhost:1313/tags/blog/</loc>
     <lastmod>2024-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://himynameisoleg.com/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2024-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://himynameisoleg.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://himynameisoleg.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://himynameisoleg.com/tags/ultralearning/</loc>
+    <loc>http://localhost:1313/tags/ultralearning/</loc>
     <lastmod>2024-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://himynameisoleg.com/blog/03-replatforming-personal-website/</loc>
+    <loc>http://localhost:1313/blog/03-replatforming-personal-website/</loc>
     <lastmod>2024-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://himynameisoleg.com/blog/rust-dev-env-astrovim/</loc>
+    <loc>http://localhost:1313/blog/rust-dev-env-astrovim/</loc>
     <lastmod>2022-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://himynameisoleg.com/blog/javascript-closures/</loc>
+    <loc>http://localhost:1313/blog/javascript-closures/</loc>
     <lastmod>2020-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://himynameisoleg.com/blog/using-data--custom-attributes-for-style-agnostic-unit-tests/</loc>
+    <loc>http://localhost:1313/blog/using-data--custom-attributes-for-style-agnostic-unit-tests/</loc>
     <lastmod>2020-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://himynameisoleg.com/blog/remove-object-based-on-key/</loc>
+    <loc>http://localhost:1313/blog/remove-object-based-on-key/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://himynameisoleg.com/blog/const-vs-let/</loc>
+    <loc>http://localhost:1313/blog/const-vs-let/</loc>
     <lastmod>2020-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://himynameisoleg.com/blog/array-reduce/</loc>
+    <loc>http://localhost:1313/blog/array-reduce/</loc>
     <lastmod>2020-01-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://himynameisoleg.com/blog/delete-node-modules/</loc>
+    <loc>http://localhost:1313/blog/delete-node-modules/</loc>
     <lastmod>2020-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://himynameisoleg.com/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2019-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://himynameisoleg.com/uses/</loc>
+    <loc>http://localhost:1313/uses/</loc>
     <lastmod>2019-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://himynameisoleg.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>
