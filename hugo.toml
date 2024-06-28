@@ -2,32 +2,37 @@ baseURL = 'https://himynameisoleg.com'
 languageCode = 'en-us'
 title = 'himynameisoleg'
 theme = 'paper'
-paginate = 3
+paginate = 5
 
 [params]
-  # color style
-  color = 'linen'                           # linen, wheat, gray, light
+# color style
+color = 'linen' # linen, wheat, gray, light
 
-  # header social icons
-  github = 'himynameisoleg'                 # github.com/YOUR_GITHUB_ID
-  linkedin = 'olegperchyk'             # linkedin.com/in/YOUR_LINKEDIN_ID
-  instagram = 'tomyumgoons'           # instagram.com/YOUR_INSTAGRAM_ID
-  twitter = 'himynameisoleg'               # twitter.com/YOUR_TWITTER_ID
+# header social icons
+github = 'himynameisoleg'  # github.com/YOUR_GITHUB_ID
+linkedin = 'olegperchyk'   # linkedin.com/in/YOUR_LINKEDIN_ID
+instagram = 'tomyumgoons'  # instagram.com/YOUR_INSTAGRAM_ID
+twitter = 'himynameisoleg' # twitter.com/YOUR_TWITTER_ID
 
-  # home page profile
-  avatar = 'perchykoleg@gmail.com'                 # gravatar email or image url
-  name = 'Oleg Perchyk'
-  bio = 'Software engineer, recommendation engines researcher, and maker.'
+# home page profile
+avatar = 'perchykoleg@gmail.com'                                         # gravatar email or image url
+name = 'Oleg Perchyk'
+bio = 'Software engineer, recommendation engines researcher, and maker.'
 
 
 [menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
-  [[menu.main]]
-    identifier = "uses"
-    name = "Uses"
-    url = "/uses"
-    weight = 10
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 2
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 4
+[[menu.main]]
+identifier = "uses"
+name = "Uses"
+url = "/uses/"
+weight = 6
