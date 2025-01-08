@@ -5,7 +5,7 @@ date = 2019-11-27
 
 I'm a software engineer from Chicago. 
 
-'Currently I'm a senior enginer at [🧬 Abbott Laboratories](https://abbott.com), where I work on consent management and integrations. 
+Currently I'm a senior enginer at [🧬 Abbott Laboratories](https://abbott.com), where I work on consent management and integrations. 
 
 Previousely, I managed shopping orchestration microservices at [✈️ United Airlines](https://united.com), and developed marketting and communications applications, chatbots and web applications at [💻 Accenture](https://accenture.com).
 
