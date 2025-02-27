@@ -9,10 +9,11 @@ paginate = 5
 color = 'linen' # linen, wheat, gray, light
 
 # header social icons
-github = 'himynameisoleg'     # github.com/YOUR_GITHUB_ID
-linkedin = 'olegperchyk'      # linkedin.com/in/YOUR_LINKEDIN_ID
-instagram = 'himynameis_oleg' # instagram.com/YOUR_INSTAGRAM_ID
-twitter = 'himynameisoleg'    # twitter.com/YOUR_TWITTER_ID
+github = 'himynameisoleg' # github.com/YOUR_GITHUB_ID
+linkedin = 'olegperchyk'  # linkedin.com/in/YOUR_LINKEDIN_ID
+instagram = 'anolegue'    # instagram.com/YOUR_INSTAGRAM_ID
+# twitter = 'himynameisoleg' # twitter.com/YOUR_TWITTER_ID
+bluesky = 'anolegue.bsky.social' # https://bsky.app/profile/YOUR_BLUESKY_ID
 
 # home page profile
 avatar = 'perchykoleg@gmail.com'                                         # gravatar email or image url
