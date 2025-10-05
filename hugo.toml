@@ -2,11 +2,11 @@ baseURL = 'https://himynameisoleg.com'
 languageCode = 'en-us'
 title = 'himynameisoleg'
 theme = 'paper'
-paginate = 5
+pagination.pagerSize = 5
 
 [params]
 # color style
-color = 'linen' # linen, wheat, gray, light
+color = 'gray' # linen, wheat, gray, light
 
 # header social icons
 github = 'himynameisoleg' # github.com/YOUR_GITHUB_ID
@@ -16,9 +16,9 @@ instagram = 'anolegue'    # instagram.com/YOUR_INSTAGRAM_ID
 bluesky = 'anolegue.bsky.social' # https://bsky.app/profile/YOUR_BLUESKY_ID
 
 # home page profile
-avatar = 'perchykoleg@gmail.com'                                         # gravatar email or image url
+avatar = 'perchykoleg@gmail.com' # gravatar email or image url
 name = 'Oleg Perchyk'
-bio = 'Software engineer, recommendation engines researcher, and maker.'
+bio = 'Software Engineer'
 
 
 [menu]
